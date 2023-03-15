@@ -17,8 +17,8 @@ jobs:
       - name: Add remote 
         env:
           HF: ${{ secrets.HF }}
-        run: git remote add space https://MrFunkedeli:$HGhuggingface.co/MrFunkedeli/Goofy-Ahh-Asian-Detector
+        run: git remote add space https://MrFunkedeli:$HFhuggingface.co/MrFunkedeli/Goofy-Ahh-Asian-Detector
       - name: Push to hub
         env:
           HF: ${{ secrets.HF }}
-        run: git push --force https://MrFunkedeli:$HG@huggingface.co/MrFunkedeli/Goofy-Ahh-Asian-Detector main
+        run: git push --force https://MrFunkedeli:$HF@huggingface.co/MrFunkedeli/Goofy-Ahh-Asian-Detector main
