@@ -22,5 +22,5 @@ jobs:
       - name: Push to hub
         env:
           HF: ${{ secrets.HF }}
-        run: git push --force https://MrFunkedeli:$HF@huggingface.co/spaces/MrFunkedeli/Goofy-Ahh-Asian-Detector main
+        run: git push --force https://MrFunkedeli:$HF@huggingface.co/MrFunkedeli/Goofy-Ahh-Asian-Detector main
         #https://MrFunkedeli:$HF@huggingface.co/MrFunkedeli/Goofy-Ahh-Asian-Detector
